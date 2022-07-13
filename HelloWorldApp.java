@@ -37,6 +37,7 @@ public class HelloWorldApp {
         Object printOutHelloWorld = new Object();
         helloWorldApp.printOut(("Hello World!"));
 
+        System.out.println(printOutHelloWorld.equals(helloWorldApp));
         System.out.println(helloWorldApp.printOut(("Hello World!")));
     }
 
